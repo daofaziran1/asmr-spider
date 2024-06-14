@@ -25,3 +25,45 @@ SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2d4f900
 Jun 14, 2024 9:59:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
 2024.06.14 21:59:42 ERROR [info] [launcher] getting org.scala-sbt sbt 1.10.0  (this may take some time)...[0m
+2024.06.14 22:00:15 ERROR [info] [launcher] getting Scala 2.12.19 (for sbt)...[0m
+2024.06.14 22:00:16 INFO  [info] welcome to sbt 1.10.0 (Eclipse Adoptium Java 11.0.23)[0m
+2024.06.14 22:00:17 INFO  [info] loading settings for project asmr-spider-build-build-build from metals.sbt ...[0m
+2024.06.14 22:00:17 INFO  [info] loading project definition from /home/daofaziran/scala/asmr-spider/project/project/project[0m
+2024.06.14 22:00:25 INFO  [info] loading settings for project asmr-spider-build-build from metals.sbt ...[0m
+2024.06.14 22:00:25 INFO  [info] loading project definition from /home/daofaziran/scala/asmr-spider/project/project[0m
+2024.06.14 22:00:28 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:00:28 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:00:28 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:00:30 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:00:31 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:00:34 INFO  [success] Generated .bloop/asmr-spider-build-build.json[0m
+2024.06.14 22:00:34 INFO  [success] Total time: 9 s, completed Jun 14, 2024, 10:00:34 PM[0m
+2024.06.14 22:00:34 INFO  [info] loading settings for project asmr-spider-build from metals.sbt,plugins.sbt ...[0m
+2024.06.14 22:00:34 INFO  [info] loading project definition from /home/daofaziran/scala/asmr-spider/project[0m
+2024.06.14 22:00:59 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:00:59 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:01:00 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:01:00 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:01:00 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 14, 2024 10:01:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+2024.06.14 22:01:00 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:01:02 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:01:02 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:01:02 WARN  no build target for: /home/daofaziran/scala/asmr-spider/build.sbt[0m
+2024.06.14 22:01:02 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:01:02 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.14 22:01:07 INFO  [success] Generated .bloop/asmr-spider-build.json[0m
+2024.06.14 22:01:07 INFO  [success] Total time: 32 s, completed Jun 14, 2024, 10:01:07 PM[0m
+2024.06.14 22:01:07 ERROR /home/daofaziran/scala/asmr-spider/build.sbt:9: warning: value SbtMultiJvm in package sbt is deprecated (since 0.6.0): Use MultiJvm instead[0m
+2024.06.14 22:01:07 ERROR   .settings(multiJvmSettings: _*)[0m
+2024.06.14 22:01:07 ERROR             ^[0m
+2024.06.14 22:01:07 ERROR /home/daofaziran/scala/asmr-spider/build.sbt:29: warning: object MultiJvmKeys in object MultiJvmPlugin is deprecated (since 0.6.0): Use MultiJvmPlugin.autoImport instead[0m
+2024.06.14 22:01:07 ERROR   .configs(MultiJvm)[0m
+2024.06.14 22:01:07 ERROR            ^[0m
+2024.06.14 22:01:07 ERROR /home/daofaziran/scala/asmr-spider/build.sbt:29: warning: value SbtMultiJvm in package sbt is deprecated (since 0.6.0): Use MultiJvm instead[0m
+2024.06.14 22:01:07 ERROR   .configs(MultiJvm)[0m
+2024.06.14 22:01:07 ERROR            ^[0m
+2024.06.14 22:01:07 INFO  [info] loading settings for project pekko-sample-cluster-scala from build.sbt ...[0m
+2024.06.14 22:01:07 INFO  [info] set current project to pekko-sample-cluster-scala (in build file:/home/daofaziran/scala/asmr-spider/)[0m
+2024.06.14 22:01:16 INFO  no build target found for /home/daofaziran/scala/asmr-spider/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
