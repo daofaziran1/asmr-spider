@@ -1,12 +1,10 @@
-import com.typesafe.sbt.SbtMultiJvm.multiJvmSettings
-import com.typesafe.sbt.SbtMultiJvm.MultiJvmKeys.MultiJvm
 
 val pekkoVersion = "1.0.2"
 val logbackVersion = "1.2.13"
+val pekkoHttpVersion = "1.0.1"
 
-lazy val `pekko-sample-cluster-scala` = project
+lazy val `asmr-spider` = project
   .in(file("."))
-  .settings(multiJvmSettings: _*)
   .settings(
     organization := "org.apache.pekko",
     scalaVersion := "3.4.2",
@@ -17,6 +15,7 @@ lazy val `pekko-sample-cluster-scala` = project
       "org.apache.pekko" %% "pekko-actor-typed" % pekkoVersion,
       "org.apache.pekko" %% "pekko-cluster-typed" % pekkoVersion,
       "org.apache.pekko" %% "pekko-serialization-jackson" % pekkoVersion,
+      "org.apache.pekko" %% "pekko-http" % pekkoHttpVersion,
       "ch.qos.logback" % "logback-classic" % logbackVersion,
       "org.apache.pekko" %% "pekko-multi-node-testkit" % pekkoVersion % Test,
       "org.scalatest" %% "scalatest" % "3.2.18" % Test,

@@ -15,4 +15,6 @@ target/
 .classpath
 .project
 .settings
-.metals
+.metals/
+.bloop/
+/project/.bloop/
